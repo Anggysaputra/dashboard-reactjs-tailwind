@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Outfit Bold";
+  src: url(../public/Outfit-Bold.ttf);
+}
+.font-outfit-bold {
+  font-family: "Outfit Bold";
+}
+
+@font-face {
+  font-family: "Outfit Medium";
+  src: url(../public/Outfit-Medium.ttf);
+}
+.font-outfit-medium {
+  font-family: "Outfit Medium";
+}
+
+@font-face {
+  font-family: "Outfit Reguler";
+  src: url(../public/Outfit-Regular.ttf);
+}
+.font-outfit-reguler {
+  font-family: "Outfit Reguler";
+}

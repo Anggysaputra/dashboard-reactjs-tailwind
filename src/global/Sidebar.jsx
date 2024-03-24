@@ -138,11 +138,17 @@ export default function Sidebar({ child }) {
           <main className="flex-1">
             <div className="py-6">
               <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
-                <h1 className="text-2xl font-semibold text-gray-900">
+                <h1 className="text-2xl font-outfit-bold text-gray-900">
+                  Dashboard
+                </h1>
+                <h1 className="text-2xl font-outfit-medium text-gray-900">
+                  Dashboard
+                </h1>
+                <h1 className="text-2xl font-outfit-reguler text-gray-900">
                   Dashboard
                 </h1>
               </div>
-              <div className="mx-auto max-w-8xl px-4 sm:px-6 md:px-8">
+              <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
                 {/* Replace with your content */}
                 {child}
                 <div className="py-4">

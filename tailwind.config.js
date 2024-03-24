@@ -4,7 +4,11 @@ const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        outfitBold: ["Outfit", "sans-serif"],
+      },
+    },
   },
   plugins: [require("@tailwindcss/forms"), require("flowbite/plugin")],
 });
